@@ -1,15 +1,15 @@
-import Array "mo:base/Array";
-import Blob "mo:base/Blob";
-import Buffer "mo:base/Buffer";
-import Debug "mo:base/Debug";
-import Iter "mo:base/Iter";
-import Nat8 "mo:base/Nat8";
-import Option "mo:base/Option";
-import Principal "mo:base/Principal";
-import Result "mo:base/Result";
-import Text "mo:base/Text";
-import Nat "mo:base/Nat";
-import Error "mo:base/Error";
+import Array "mo:base@0/Array";
+import Blob "mo:base@0/Blob";
+import Buffer "mo:base@0/Buffer";
+import Debug "mo:base@0/Debug";
+import Iter "mo:base@0/Iter";
+import Nat8 "mo:base@0/Nat8";
+import Option "mo:base@0/Option";
+import Principal "mo:base@0/Principal";
+import Result "mo:base@0/Result";
+import Text "mo:base@0/Text";
+import Nat "mo:base@0/Nat";
+import Error "mo:base@0/Error";
 
 import Assets "../src";
 import FileSystem "../src/BaseAssets/FileSystem";

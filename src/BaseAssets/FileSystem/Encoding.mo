@@ -1,7 +1,7 @@
-import Nat "mo:base/Nat";
-import Time "mo:base/Time";
+import Nat "mo:base@0/Nat";
+import Time "mo:base@0/Time";
 
-import MemoryRegion "mo:memory-region/MemoryRegion";
+import MemoryRegion "mo:memory-region@1/MemoryRegion";
 
 import T "../Types";
 import Utils "../Utils";

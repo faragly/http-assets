@@ -1,7 +1,7 @@
-import Principal "mo:base/Principal";
-import Result "mo:base/Result";
-import Timer "mo:base/Timer";
-import Error "mo:base/Error";
+import Principal "mo:base@0/Principal";
+import Result "mo:base@0/Result";
+import Timer "mo:base@0/Timer";
+import Error "mo:base@0/Error";
 
 import Assets "";
 import T "BaseAssets/Types";

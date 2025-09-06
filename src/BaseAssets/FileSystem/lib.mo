@@ -1,12 +1,12 @@
-import Text "mo:base/Text";
-import Iter "mo:base/Iter";
-import Buffer "mo:base/Buffer";
-import Debug "mo:base/Debug";
+import Text "mo:base@0/Text";
+import Iter "mo:base@0/Iter";
+import Buffer "mo:base@0/Buffer";
+import Debug "mo:base@0/Debug";
 
-import Itertools "mo:itertools/Iter";
-import Map "mo:map/Map";
-import CertifiedAssets "mo:certified-assets/Stable";
-import RevIter "mo:itertools/RevIter";
+import Itertools "mo:itertools@0/Iter";
+import Map "mo:map@9/Map";
+import CertifiedAssets "mo:certified-assets@0/Stable";
+import RevIter "mo:itertools@0/RevIter";
 
 import T "../Types";
 import Common "Common";

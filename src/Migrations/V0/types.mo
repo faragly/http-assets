@@ -1,13 +1,13 @@
-import Result "mo:base/Result";
-import Time "mo:base/Time";
+import Result "mo:base@0/Result";
+import Time "mo:base@0/Time";
 
-import Set "mo:map/Set";
-import Map "mo:map/Map";
-import CertifiedAssets "mo:certified-assets";
-import SHA256 "mo:sha2/Sha256";
-import Vector "mo:vector";
+import Set "mo:map@9/Set";
+import Map "mo:map@9/Map";
+import CertifiedAssets "mo:certified-assets@0";
+import SHA256 "mo:sha2@0/Sha256";
+import Vector "mo:vector@0";
 
-import HttpTypes "mo:http-types";
+import HttpTypes "mo:http-types@1";
 
 module V0 {
 

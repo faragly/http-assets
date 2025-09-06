@@ -1,17 +1,17 @@
-import Result "mo:base/Result";
-import Array "mo:base/Array";
-import Time "mo:base/Time";
-import Blob "mo:base/Blob";
-import Iter "mo:base/Iter";
-import Option "mo:base/Option";
-import Principal "mo:base/Principal";
-import StableMemory "mo:base/ExperimentalStableMemory";
+import Result "mo:base@0/Result";
+import Array "mo:base@0/Array";
+import Time "mo:base@0/Time";
+import Blob "mo:base@0/Blob";
+import Iter "mo:base@0/Iter";
+import Option "mo:base@0/Option";
+import Principal "mo:base@0/Principal";
+import StableMemory "mo:base@0/ExperimentalStableMemory";
 
-import Set "mo:map/Set";
-import Map "mo:map/Map";
-import CertifiedAssets "mo:certified-assets/Stable";
-import SHA256 "mo:sha2/Sha256";
-import Vector "mo:vector";
+import Set "mo:map@9/Set";
+import Map "mo:map@9/Map";
+import CertifiedAssets "mo:certified-assets@0/Stable";
+import SHA256 "mo:sha2@0/Sha256";
+import Vector "mo:vector@0";
 
 import V0_types "../V0/types";
 import V0_1_0_types "../V0_1_0/types";

@@ -1,17 +1,17 @@
-import Order "mo:base/Order";
-import Result "mo:base/Result";
-import Time "mo:base/Time";
-import Nat64 "mo:base/Nat64";
-import Iter "mo:base/Iter";
-import Buffer "mo:base/Buffer";
+import Order "mo:base@0/Order";
+import Result "mo:base@0/Result";
+import Time "mo:base@0/Time";
+import Nat64 "mo:base@0/Nat64";
+import Iter "mo:base@0/Iter";
+import Buffer "mo:base@0/Buffer";
 
-import Set "mo:map/Set";
-import Map "mo:map/Map";
-import CertifiedAssets "mo:certified-assets/Stable";
-import SHA256 "mo:sha2/Sha256";
-import Vector "mo:vector";
-import MemoryRegion "mo:memory-region/MemoryRegion";
-import HttpParser "mo:http-parser";
+import Set "mo:map@9/Set";
+import Map "mo:map@9/Map";
+import CertifiedAssets "mo:certified-assets@0/Stable";
+import SHA256 "mo:sha2@0/Sha256";
+import Vector "mo:vector@0";
+import MemoryRegion "mo:memory-region@1/MemoryRegion";
+import HttpParser "mo:http-parser@0";
 
 module T {
 

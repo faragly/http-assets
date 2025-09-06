@@ -1,18 +1,18 @@
-import Result "mo:base/Result";
-import Debug "mo:base/Debug";
-import Order "mo:base/Order";
-import Iter "mo:base/Iter";
-import Blob "mo:base/Blob";
-import Prelude "mo:base/Prelude";
-import Array "mo:base/Array";
-import Buffer "mo:base/Buffer";
-import Text "mo:base/Text";
-import Error "mo:base/Error";
-import HttpParser "mo:http-parser";
+import Result "mo:base@0/Result";
+import Debug "mo:base@0/Debug";
+import Order "mo:base@0/Order";
+import Iter "mo:base@0/Iter";
+import Blob "mo:base@0/Blob";
+import Prelude "mo:base@0/Prelude";
+import Array "mo:base@0/Array";
+import Buffer "mo:base@0/Buffer";
+import Text "mo:base@0/Text";
+import Error "mo:base@0/Error";
+import HttpParser "mo:http-parser@0";
 
-import Map "mo:map/Map";
+import Map "mo:map@9/Map";
 
-import Itertools "mo:itertools/Iter";
+import Itertools "mo:itertools@0/Iter";
 
 module {
   type Map<K, V> = Map.Map<K, V>;

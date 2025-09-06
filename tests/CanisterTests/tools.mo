@@ -1,9 +1,9 @@
-import Debug "mo:base/Debug";
-import Buffer "mo:base/Buffer";
-import Result "mo:base/Result";
-import Text "mo:base/Text";
+import Debug "mo:base@0/Debug";
+import Buffer "mo:base@0/Buffer";
+import Result "mo:base@0/Result";
+import Text "mo:base@0/Text";
 
-import Map "mo:map/Map";
+import Map "mo:map@9/Map";
 import Serde "mo:serde"
 
 module {

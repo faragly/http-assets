@@ -1,7 +1,7 @@
-import Blob "mo:base/Blob";
-import Debug "mo:base/Debug";
+import Blob "mo:base@0/Blob";
+import Debug "mo:base@0/Debug";
 
-import Map "mo:map/Map";
+import Map "mo:map@9/Map";
 
 import V0_types "V0/types";
 import V0_1_0_types "V0_1_0/types";

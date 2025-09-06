@@ -1,15 +1,15 @@
-import Array "mo:base/Array";
-import Text "mo:base/Text";
-import Blob "mo:base/Blob";
-import Option "mo:base/Option";
-import Debug "mo:base/Debug";
-import Buffer "mo:base/Buffer";
-import Principal "mo:base/Principal";
+import Array "mo:base@0/Array";
+import Text "mo:base@0/Text";
+import Blob "mo:base@0/Blob";
+import Option "mo:base@0/Option";
+import Debug "mo:base@0/Debug";
+import Buffer "mo:base@0/Buffer";
+import Principal "mo:base@0/Principal";
 
-import Map "mo:map/Map";
-import BaseX "mo:base-x-encoder";
-import CertifiedAssets "mo:certified-assets/Stable";
-import HttpParser "mo:http-parser";
+import Map "mo:map@9/Map";
+import BaseX "mo:base-x-encoder@2";
+import CertifiedAssets "mo:certified-assets@0/Stable";
+import HttpParser "mo:http-parser@0";
 
 import T "Types";
 import Utils "Utils";

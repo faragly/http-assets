@@ -1,10 +1,10 @@
-import Debug "mo:base/Debug";
-import Blob "mo:base/Blob";
+import Debug "mo:base@0/Debug";
+import Blob "mo:base@0/Blob";
 
-import CertifiedAssets "mo:certified-assets/Stable";
-import Map "mo:map/Map";
-import Itertools "mo:itertools/Iter";
-import BaseX "mo:base-x-encoder";
+import CertifiedAssets "mo:certified-assets@0/Stable";
+import Map "mo:map@9/Map";
+import Itertools "mo:itertools@0/Iter";
+import BaseX "mo:base-x-encoder@2";
 
 import T "../Types";
 import ErrorMessages "../ErrorMessages";

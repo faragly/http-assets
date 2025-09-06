@@ -1,5 +1,5 @@
 import { test } "mo:test";
-import Debug "mo:base/Debug";
+import Debug "mo:base@0/Debug";
 import Utils "../src/BaseAssets/Utils";
 
 test(

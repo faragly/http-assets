@@ -1,15 +1,15 @@
-import Result "mo:base/Result";
-import Text "mo:base/Text";
-import Time "mo:base/Time";
-import Iter "mo:base/Iter";
-import Blob "mo:base/Blob";
-import Array "mo:base/Array";
-import Principal "mo:base/Principal";
+import Result "mo:base@0/Result";
+import Text "mo:base@0/Text";
+import Time "mo:base@0/Time";
+import Iter "mo:base@0/Iter";
+import Blob "mo:base@0/Blob";
+import Array "mo:base@0/Array";
+import Principal "mo:base@0/Principal";
 
-import { URL; Headers } "mo:http-parser";
-import Map "mo:map/Map";
-import CertifiedAssets "mo:certified-assets/Stable";
-import Itertools "mo:itertools/Iter";
+import { URL; Headers } "mo:http-parser@0";
+import Map "mo:map@9/Map";
+import CertifiedAssets "mo:certified-assets@0/Stable";
+import Itertools "mo:itertools@0/Iter";
 
 import T "BaseAssets/Types";
 import BaseAssets "BaseAssets/lib";

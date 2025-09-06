@@ -1,11 +1,11 @@
-import Blob "mo:base/Blob";
-import Time "mo:base/Time";
+import Blob "mo:base@0/Blob";
+import Time "mo:base@0/Time";
 
 import { test; suite } "mo:test";
-import Sha256 "mo:sha2/Sha256";
-import Vector "mo:vector";
-import Map "mo:map/Map";
-import MemoryRegion "mo:memory-region/MemoryRegion";
+import Sha256 "mo:sha2@0/Sha256";
+import Vector "mo:vector@0";
+import Map "mo:map@9/Map";
+import MemoryRegion "mo:memory-region@1/MemoryRegion";
 
 import Upload "../src/BaseAssets/Upload";
 

@@ -1,6 +1,6 @@
-import Array "mo:base/Array";
-import IC "mo:ic";
-import Set "mo:map/Set";
+import Array "mo:base@0/Array";
+import IC "mo:ic@3";
+import Set "mo:map@9/Set";
 import T "Types";
 import ErrorMessages "ErrorMessages";
 

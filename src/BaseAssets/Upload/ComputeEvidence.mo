@@ -1,16 +1,16 @@
-import Buffer "mo:base/Buffer";
-import Result "mo:base/Result";
-import Time "mo:base/Time";
-import Nat64 "mo:base/Nat64";
-import Text "mo:base/Text";
-import Nat8 "mo:base/Nat8";
-import Debug "mo:base/Debug";
+import Buffer "mo:base@0/Buffer";
+import Result "mo:base@0/Result";
+import Time "mo:base@0/Time";
+import Nat64 "mo:base@0/Nat64";
+import Text "mo:base@0/Text";
+import Nat8 "mo:base@0/Nat8";
+import Debug "mo:base@0/Debug";
 
-import Set "mo:map/Set";
-import Map "mo:map/Map";
-import Sha256 "mo:sha2/Sha256";
-import Vector "mo:vector";
-import MemoryRegion "mo:memory-region/MemoryRegion";
+import Set "mo:map@9/Set";
+import Map "mo:map@9/Map";
+import Sha256 "mo:sha2@0/Sha256";
+import Vector "mo:vector@0";
+import MemoryRegion "mo:memory-region@1/MemoryRegion";
 
 import T "../Types";
 

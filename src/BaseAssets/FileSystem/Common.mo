@@ -1,8 +1,8 @@
-import Text "mo:base/Text";
-import Iter "mo:base/Iter";
-import Itertools "mo:itertools/Iter";
-import Map "mo:map/Map";
-import RevIter "mo:itertools/RevIter";
+import Text "mo:base@0/Text";
+import Iter "mo:base@0/Iter";
+import Itertools "mo:itertools@0/Iter";
+import Map "mo:map@9/Map";
+import RevIter "mo:itertools@0/RevIter";
 
 import T "../Types";
 

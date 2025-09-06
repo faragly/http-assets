@@ -1,18 +1,18 @@
-import Array "mo:base/Array";
-import Debug "mo:base/Debug";
-import Option "mo:base/Option";
-import Principal "mo:base/Principal";
-import Result "mo:base/Result";
-import Time "mo:base/Time";
-import Blob "mo:base/Blob";
+import Array "mo:base@0/Array";
+import Debug "mo:base@0/Debug";
+import Option "mo:base@0/Option";
+import Principal "mo:base@0/Principal";
+import Result "mo:base@0/Result";
+import Time "mo:base@0/Time";
+import Blob "mo:base@0/Blob";
 
-import Set "mo:map/Set";
-import Map "mo:map/Map";
-import CertifiedAssets "mo:certified-assets/Stable";
-import Itertools "mo:itertools/Iter";
-import { URL; Headers } "mo:http-parser";
-import HttpParser "mo:http-parser";
-import MemoryRegion "mo:memory-region/MemoryRegion";
+import Set "mo:map@9/Set";
+import Map "mo:map@9/Map";
+import CertifiedAssets "mo:certified-assets@0/Stable";
+import Itertools "mo:itertools@0/Iter";
+import { URL; Headers } "mo:http-parser@0";
+import HttpParser "mo:http-parser@0";
+import MemoryRegion "mo:memory-region@1/MemoryRegion";
 
 import T "Types";
 
