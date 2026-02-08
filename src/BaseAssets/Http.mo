@@ -84,13 +84,19 @@ module {
     };
 
     let certified_headers_result = switch (opt_fallback_key) {
-      case (?fallback_key) CertifiedAssets.get_fallback_certificate(
-        self.fs.certs,
-        http_req,
-        fallback_key,
-        http_res,
-        opt_body_hash,
-      );
+      case (?fallback_key) {
+        let cert_fallback_path = switch (CertifiedAssets.get_fallback_path(self.fs.certs, key)) {
+          case (?path) path;
+          case (null) fallback_key;
+        };
+        CertifiedAssets.get_fallback_certificate(
+          self.fs.certs,
+          http_req,
+          cert_fallback_path,
+          http_res,
+          opt_body_hash,
+        );
+      };
       case (null) CertifiedAssets.get_certificate(
         self.fs.certs,
         http_req,
